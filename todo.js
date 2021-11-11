@@ -119,7 +119,7 @@ function init(){
     	// Disable Page Move
 	document.body.addEventListener('touchmove',function(evt){
 		evt.preventDefault();
-	},false);
+	},{passive: false});
     
 
 }
